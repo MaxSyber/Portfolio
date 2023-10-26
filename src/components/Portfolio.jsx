@@ -5,7 +5,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   // init one ref to store the future isotope object
   const isotope = useRef();
   // store the filter keyword in a state
-  const [filterKey, setFilterKey] = useState("*");
+  const [filterKey] = useState("*");
   const [imagesLoaded, setimagesLoaded] = useState(0);
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
@@ -57,7 +57,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/dapp1.png",
         "images/projects/dapp2.png",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.BRAND],
     },
     
   ];
@@ -84,7 +84,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     }
   }, [filterKey, imagesLoaded]);
 
-  const handleFilterKeyChange = (key) => () => setFilterKey(key);
+  
 
   return (
     <>
@@ -139,13 +139,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                         <div className="portfolio-overlay">
                           <a
                             className="popup-ajax stretched-link"
-                            href=""
+                            href="viewdetails"
                             onClick={() => {
                               setSelectedProjectDetails(projectsData[index]);
                             }}
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
-                          />
+                          > .</a>
                           <div className="portfolio-overlay-details">
                             <h5 className="text-white fw-400">
                               {project.title}
