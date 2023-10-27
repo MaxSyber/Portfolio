@@ -25,7 +25,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Hardhat",
-      icon: "images/hardhat2.png"
+      icon: "images/Hardhat2.png"
     },
     {
       name: "Git",
