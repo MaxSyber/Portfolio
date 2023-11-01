@@ -52,10 +52,10 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         vid: "",
         vidlink: ""
       },
-      thumbImage: "images/projects/dapp1.png",
+      thumbImage: "images/projects/Dapp1.png",
       sliderImages: [
-        "images/projects/dapp1.png",
-        "images/projects/dapp2.png",
+        "images/projects/Dapp1.png",
+        "images/projects/Dapp2.png",
       ],
       categories: [filters.BRAND],
     },
