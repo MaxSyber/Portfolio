@@ -7,7 +7,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2022 - 2023",
       title: "Solidty Full Stack Bootcamp",
       place: "Dapp University",
-      desc: "Completed a solidty blockchain project createing a cryptocurency trading platform where users could buy and sell mock cryptocurencies.",
+      desc: "Created a decentralized cryptocurrency exchange to trade coin pairs. This included the creation of both token and exchange smart contracts on the Goerli test network",
     },
     {
       yearRange: "2010 - 2014",
@@ -22,7 +22,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2023",
       title: "Full Stack Solidity Developer",
       place: "Syber Tickets",
-      desc: "Created a fully functioning digital ticketing platform on the Polygon.  Wrote test against solidity contracts, deployment scripts, and built a website using hardhat and react to host the ticket platform",
+      desc: "A web 3.0 ticketing application that is reshaping the very essence of event ticketing. Powered by smart contracts on the Polygon Network, Syber Tickets uses the concept of soulbound NFTs to issue non-transferable event tickets",
     },
     {
       yearRange: "2014 - 2022",
