@@ -59,6 +59,28 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.BRAND],
     },
+    {
+      title: "NewAge AI Art Gallery",
+      projectInfo:
+        "NewAge is a cutting-edge web 3.0 AI art gallery that showcases a curated collection of mesmerizing artworks crafted by artificial intelligence. With NewAge, you not only have the opportunity to appreciate these unique pieces but also to make them a tangible part of your space. Purchase your favorite AI-generated artwork, and we'll transform it into a stunning poster and send it straight to your doorstep. (Deployed to the Polygon Matic test network)",
+      technologies: "Solidity, Javascript, React, DALL.E 2, Hardhat, Node.js, Ethers.js",
+      date: "January 2024",
+      url: {
+        name: "Newage AI Art Gallery",
+        link: "https://newage.on.fleek.co/",
+        git: "Newage AI art",
+        gitlink: "https://github.com/MaxSyber/Newage",
+        vid: "",
+        vidlink: ""
+      },
+      thumbImage: "images/projects/Newage1.jpg",
+      sliderImages: [
+        "images/projects/Newage1.jpg",
+        "images/projects/Newage2.jpg",
+        "images/projects/Newage3.jpg"
+      ],
+      categories: [filters.BRAND],
+    },
     
   ];
 
