@@ -27,8 +27,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         link: "https://sybertickets.on.fleek.co/",
         git: "Syber Tickets",
         gitlink: "https://github.com/MaxSyber/Syber-Tickets",
-        vid: "",
-        vidlink: ""
+        vid: "https://youtu.be/Q5owRJpsBj8",
+        vidlink: "https://youtu.be/Q5owRJpsBj8"
       },
       thumbImage: "images/projects/Syber2.png",
       sliderImages: [
@@ -45,12 +45,12 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "HTML5, CSS3, Solidity, Javascript, React, Hardhat",
       date: "April 2023",
       url: {
-        name: "Dapp Token Exchange",
+        name: "https://dappexhchange.on.fleek.co/",
         link: "https://syberdappexhchange.on.fleek.co/",
         git: "Dapp Token Exchange",
         gitlink: "https://github.com/MaxSyber/blockchain-developer-bootcamp",
-        vid: "",
-        vidlink: ""
+        vid: "https://youtu.be/Uqfg2LhOsQc",
+        vidlink: "https://youtu.be/Uqfg2LhOsQc"
       },
       thumbImage: "images/projects/Dapp1.png",
       sliderImages: [
@@ -66,12 +66,12 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "Solidity, Javascript, React, DALL.E 2, Hardhat, Node.js, Ethers.js",
       date: "January 2024",
       url: {
-        name: "Newage AI Art Gallery",
+        name: "https://newage.on.fleek.co/",
         link: "https://newage.on.fleek.co/",
         git: "Newage AI art",
         gitlink: "https://github.com/MaxSyber/Newage",
-        vid: "",
-        vidlink: ""
+        vid: "https://youtu.be/hbp9Ta5mU8M",
+        vidlink: "https://youtu.be/hbp9Ta5mU8M"
       },
       thumbImage: "images/projects/Newage1.jpg",
       sliderImages: [
