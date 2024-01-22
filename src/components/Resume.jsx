@@ -4,7 +4,7 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2022 - 2023",
+      yearRange: "October 2022 - April 2023",
       title: "Solidty Full Stack Bootcamp",
       place: "Dapp University",
       desc: "Created a decentralized cryptocurrency exchange to trade coin pairs. This included the creation of both token and exchange smart contracts on the Goerli test network",
@@ -19,10 +19,16 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const experienceDetails = [
     {
-      yearRange: "2023",
+      yearRange: "January 2024",
+      title: "Blockchain Developer",
+      place: "NewAge AI Art Gallery",
+      desc: "Developed a full-stack web 3.0 application and Solidity smart contract to facilitate the physical printing and procurement of your favorite AI-generated artwork. This project serves as a simple yet effective marketplace for purchasing your preferred AI-generated art images.",
+    },
+    {
+      yearRange: "April 2023 - August 2023",
       title: "Full Stack Solidity Developer",
       place: "Syber Tickets",
-      desc: "A web 3.0 ticketing application that is reshaping the very essence of event ticketing. Powered by smart contracts on the Polygon Network, Syber Tickets uses the concept of soulbound NFTs to issue non-transferable event tickets",
+      desc: "Created a web 3.0 ticketing application that is reshaping the very essence of event ticketing. Powered by smart contracts on the Polygon Network, Syber Tickets uses the concept of soulbound NFTs to issue non-transferable event tickets",
     },
     {
       yearRange: "2014 - 2022",
