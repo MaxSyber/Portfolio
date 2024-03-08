@@ -39,6 +39,28 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.BRAND],
     },
     {
+      title: "Fastlane",
+      projectInfo:
+        "Fastlane is a dynamic blockchain game where players navigate through obstacles placed previous participants with the goal of reaching the end of the road.  Upon victory, they create/mint the next road segment and earn passive income from other players' attempts to complete the road.  Each time a player adds a segment the road becomes longer. (Hackathon project for EthDenver 2024)",
+      technologies: "Solidity, Node.js, Figma, Blender, Three.js, Adobe Photoshop, Adobe Illustrator, React.js, Hardhat",
+      date: "April 2023",
+      url: {
+        name: "No live link at the moment",
+        link: "",
+        git: "Fastlane",
+        gitlink: "https://github.com/narasim-teja/FastLane-EthDenver",
+        vid: "https://youtu.be/-cKj4npXsic",
+        vidlink: "https://youtu.be/-cKj4npXsic"
+      },
+      thumbImage: "images/projects/Fastlane1.png",
+      sliderImages: [
+        "images/projects/Fastlane2.png",
+        "images/projects/Fastlane3.png",
+        "images/projects/Fastlane4.png",
+      ],
+      categories: [filters.BRAND],
+    },
+    {
       title: "Dapp Token Exchange",
       projectInfo:
         "Dapp Token Exchange is a fully functioning decentralized cryptocurrency exchange created to facilitate the exchange of coin pairs. This app employs two smart contracts to create new cryptocurrencies as well as the exchange to trade them on. (Deployed to the Goerli test network).",

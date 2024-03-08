@@ -19,6 +19,12 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const experienceDetails = [
     {
+      yearRange: "February 2024 - March 2024",
+      title: "Lead Blockchain Developer",
+      place: "Fastlane-(Hackathon EthDenver 2024)",
+      desc: "To develop the backend for Fastlane, I utilized Solidity contracts to facilitate transactions and mint track segments seamlessly within the game.  By integrating blockchain technology, I aimed to enhance the gaming experience by providing transparency, security, and seamless in-game asset management.",
+    },
+    {
       yearRange: "January 2024",
       title: "Blockchain Developer",
       place: "NewAge AI Art Gallery",
