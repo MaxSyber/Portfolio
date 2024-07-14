@@ -61,9 +61,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span className="fw-600 me-2">Email:</span>
                   <a href="brs5241psu@gmail.com">brs5241psu@gmail.com</a>
                 </li>
-                <li>
+                {/*<li>
                   <span className="fw-600 me-2">Age:</span>31
                 </li>
+                */}
                 <li className="border-0">
                   <span className="fw-600 me-2">From:</span>Harrisburg, 
                   Pennsylvania

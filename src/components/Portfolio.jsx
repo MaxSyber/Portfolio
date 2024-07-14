@@ -39,6 +39,28 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.BRAND],
     },
     {
+      title: "Coindragon",
+      projectInfo:
+        "Coindragon is a cryptocurrency portfolio tracking application that allows users to view their crypto assets and their distribution in a simple and concise manner. Users can easily monitor the individual currencies they hold within their Metamask accounts.",
+      technologies: "HTML5, CSS3, Javascript, Next.js",
+      date: "June 2024",
+      url: {
+        name: "https://coindragon-ten.vercel.app/",
+        link: "https://coindragon-ten.vercel.app/",
+        git: "Coindragon",
+        gitlink: "https://github.com/MaxSyber/Coindragon",
+        vid: "Not yet available",
+        vidlink: "https://youtu.be/Q5owRJpsBj8"
+      },
+      thumbImage: "images/projects/Coindragon1.jpg",
+      sliderImages: [
+        "images/projects/Coindragon1.jpg",
+        "images/projects/Coindragon2.jpg",
+        "images/projects/Coindragon3.jpg",
+      ],
+      categories: [filters.BRAND],
+    },
+    {
       title: "Fastlane",
       projectInfo:
         "Fastlane is a dynamic blockchain game where players navigate through obstacles placed previous participants with the goal of reaching the end of the road.  Upon victory, they create/mint the next road segment and earn passive income from other players' attempts to complete the road.  Each time a player adds a segment the road becomes longer. (Hackathon project for EthDenver 2024)",
