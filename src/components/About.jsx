@@ -33,12 +33,13 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Brett Seibert,</span> Full Stack Solidity Developer
+              I'm <span className="text-primary">Brett Seibert,</span> Full Stack Software Developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I am a Solidity developer with an interest in creating smart contracts for the Web 3.0 space. I enjoy being on the cutting edge of new 
-              technology and love contributing to the future of blockchain ecosystems. My experience is primarily focused on smart contract 
-              development within the Ethereum network, along with all other EVM-compatible platforms.
+              I am a Full Stack Software Developer with a strong passion for building innovative software and
+              web applications. Having successfully transitioned from a background in archaeology to software
+              development, I am dedicated to delivering solutions that enhance user experiences and contribute to
+              the advancement of technology
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
               My particular interests within blockchain include web 3.0, tokenized assets (outside of collector NFTs), and soulbound NFTs.  

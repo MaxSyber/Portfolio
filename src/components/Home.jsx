@@ -19,7 +19,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 <p className="text-7 fw-500 text-white mb-2 mb-md-3"><span className="text-primary">Hello My Name is</span></p>
                 <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
                   <p> Brett Seibert </p>
-                  <p className="text-primary"> Full Stack Solidity Developer </p>
+                  <p className="text-primary"> Full Stack Software Developer </p>
                   
                 </h2>
                 <p className="text-5 text-light mb-4">

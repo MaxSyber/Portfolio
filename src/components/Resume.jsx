@@ -4,6 +4,12 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
+      yearRange: " Feburary 2024 - April 2024",
+      title: "Javascript Bootcamp",
+      place: "Dapp University",
+      desc: "Created a cryptocurrency portfolio tracking application that allows users to view their crypto assets and their distribution in a simple and concise manner.",
+    },
+    {
       yearRange: "October 2022 - April 2023",
       title: "Solidty Full Stack Bootcamp",
       place: "Dapp University",
